@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>01-08-2022 assignment</title>
+        <script src="./index.js" defer></script>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+            <li>list 4</li>
+            <li>list 5</li>
+            <li>list 6</li>
+            <li>list 7</li>
+        </ul>
+        <input
+            onKeyUp="realtime_changer();"
+            onChange="inp_changer();"
+            type="text"
+            placeholder="enter text"
+        />
+        <form onSubmit="submit_clicked();" action="#">
+            <input type="text" name="" placeholder="email" id="ip1" />
+            <input type="text" name="" placeholder="email" id="ip2" />
+            <button type="submit">click me</button>
+        </form>
+        <button class="btn">click me</button>
+        <input onChange="inp_changer();" type="checkbox" name="" id="" />
+    </body>
+</html>
